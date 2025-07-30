@@ -47,6 +47,7 @@ select*from employeetable order by first_name asc,salary desc;
 -- Get employee details from employee table whose employee name is “Dinesh”
 select*from employeetable where first_name="Dinesh";
 -- Get employee details from employee table whose employee name are “Dinesh” or “Roy”
-select*from employeetable where first_name="Dinesh" and first_name="Roy";
+select*from employeetable where first_name="Dinesh" or first_name="Roy";
 -- Get employee details from employee table whose employee name are not “Dinesh” and “Roy”
 select *from employeetable where not first_name="Dinesh" and not first_name="Roy";
+
